@@ -12,9 +12,8 @@ Receive Webhooks from Streamer Copilot and send Formatted Message to Telegram.
 There are a few requirements for cpmessage which are listed below.
 
 1. **VPS:** Virtual private server or other computer that is publicly accessible via a web domain.
-2. **Second Web Domain or Subdomain:** Required to serve https
-3. **Telegram Bot:** Create a Telegram bot via [BotFather](https://t.me/BotFather) and obtain your bot token.
-5. **Chat ID:** Use the [@userinfobot](https://t.me/userinfobot) on Telegram to find your User ID = chat ID.
+2. **Telegram Bot:** Create a Telegram bot via [BotFather](https://t.me/BotFather) and obtain your bot token.
+3. **Chat ID:** Use the [@userinfobot](https://t.me/userinfobot) on Telegram to find your User ID = chat ID.
 
 ---
 ## 2. Installation
