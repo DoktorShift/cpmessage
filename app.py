@@ -74,11 +74,11 @@ def copilot():
 
     # Build the message
     message = (
-        "**New Payment Received**\n\n"
-        f"🎯 **Title:** {copilot_title}\n"
-        f"💰 **Amount:** {amount}\n"
-        f"✏️ **Comment:** {comment if comment else 'No comment'}"
-    )
+    "**New Payment Received**\n\n"
+    f"🎯 **Title:** `{copilot_title}`\n"
+    f"💰 **Amount:** **{amount}**\n"
+    f"✏️ **Comment:** **{comment if comment else 'No comment'}**"
+   )
 
     # Send message to Telegram
     telegram_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
